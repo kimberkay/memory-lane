@@ -76,6 +76,14 @@ class EntryControl extends React.Component {
       )
     }
 
+    if ((isLoaded(auth)) && (auth.currentUser == null)) {
+      return (
+        <React.Fragment>
+          <h1>You must be signed in to access the journal.</h1>
+        </React.Fragment>
+      )
+    }
+
     if ((isLoaded(auth)) && (auth.currentUser != null)) {
       let currentlyVisibleState = null;
       let buttonText = null;
