@@ -6,6 +6,20 @@ body {
   background-size: cover;
   }
 
+.container {
+  border-radius: 25px;
+  padding: 2em;
+  padding-top: 2em;
+  margin-top: 6em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 6em;
+  height: max-content;
+  background-color: rgba(255, 255, 255, 0.625);
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
 
 h1 {
   font-family: 'Sacramento', cursive;
@@ -24,7 +38,71 @@ h1 {
 h2 {
   font-family: 'Amatic SC', cursive;
   text-align: center;
+  color: rgb(68, 68, 68);
+}
+
+h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  color: rgb(103, 75, 139);
+  text-decoration: underline;
 }
 /* font-family: 'Amatic SC', cursive;
 font-family: 'Sacramento', cursive;
 font-family: 'Sevillana', cursive; */
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 1em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 75%;
+}
+
+button {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, pink, #C67BFF, pink);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
+  margin-left: 1em;
+  border: 1px transparent;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(255, 215, 215);
+  background-image: linear-gradient(to bottom right, rgb(255, 236, 239), #e6c6ff, rgb(255, 219, 225));
+  cursor: pointer;
+}
+
+.caticorn {
+  max-width: 150px;
+  height: auto;
+}
+
+form input, textarea {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+
+button {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}

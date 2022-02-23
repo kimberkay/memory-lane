@@ -15,7 +15,7 @@ function App() {
             <Signin />
           </Route>
           <Route path="/">
-            <EntryControl />
+            <EntryControl  />
           </Route>
         </Switch>
       </Router>
