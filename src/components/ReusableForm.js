@@ -13,7 +13,7 @@ function ReusableForm(props) {
         <input
           type='text'
           name='date'
-          placeholder='date'
+          placeholder='Date'
             />
         <textarea
           type='text'

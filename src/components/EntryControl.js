@@ -71,7 +71,7 @@ class EntryControl extends React.Component {
     if (!isLoaded(auth)) {
       return (
         <React.Fragment>
-          <h1>Loading...</h1>
+          <h2>Loading...</h2>
         </React.Fragment>
       )
     }
@@ -79,7 +79,7 @@ class EntryControl extends React.Component {
     if ((isLoaded(auth)) && (auth.currentUser == null)) {
       return (
         <React.Fragment>
-          <h1>You must be signed in to access the journal.</h1>
+          <h2>You must be signed in to access the journal.</h2>
         </React.Fragment>
       )
     }
